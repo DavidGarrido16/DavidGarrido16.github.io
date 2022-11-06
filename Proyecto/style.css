@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(208, 207, 235);
+}
+h1.Título{
+    color: rgb(0, 0, 0);
+    border: 3px rgb(0, 0, 0) dotted;
+    text-align: center;
+    font: italic bold 100px ;
+    
+}
