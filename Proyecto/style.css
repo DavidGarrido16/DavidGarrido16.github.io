@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(208, 207, 235);
+    background-image: url(img/Fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 h1.Título{
     color: rgb(0, 0, 0);
