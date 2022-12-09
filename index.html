@@ -5,49 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style_index.css">
     <title>Proyecto</title>
 </head>
-
 <body>
-
-    <body>
-        <div id="contenedor">
-            <div id="cabecera">
-                <h1>Página Principal</h1>
+    <div class="contenedor">
+        <!-- Contenido del encabezado -->
+        <header>
+            <h1>Página Principal</h1>
+        </header>
+        <!-- Contenido del menú de navegación -->
+        <nav>
+            <div class="menu">
+                <a href="index.html">Página Principal</a>
             </div>
-
-            <nav>
-                <ul>
-                    <li>Página Principal</li>
-                    <li>Currículum</li>
-                    <li>Formulario</li>
-                    <li>Sobre mi proyecto</li>
-                </ul>
-            </nav>
-
-            <main>
-                <section class="caracteristicas">
-                    <h1>Tres características sobre mí</h1>
-                    <article>
-                        <h2>Gracioso</h2>
-                        <p>Me considero una persona graciosa, ya que, siempre intento estar con una sonrisa y poder hacer feliz a la gente que me rodea. Es la personalidad que tengo, pero claro, siempre desde el respeto a las otras personas.</p>
-                    </article>
-                    <article>
-                        <h2>Trabajador</h2>
-                        <p></p>
-                    </article>
-                    <article>
-                        <h2>Amable</h2>
-                    </article>
-                </section>
-
-            </main>
-
-            <div id="pie">
+            <div class="menu">
+                <a href="Curriculum.html">Currículum</a>
             </div>
-        </div>
-    </body>
+            <div class="menu">
+                <a href="Formulario.html">Formulario</a>
+            </div>
+            <div class="menu">
+                <a href="Sobre_mi_proyecto.html">Sobre mi proyecto</a>
+            </div>
+        </nav>
+        <!-- Contenido de la información personal lateral -->
+        <aside>
+            <h1>Información Personal</h1>
+            <img class="foto" src="img/foto.png" alt="foto_perfil">
+            <ul>
+                <li>David Garrido Martínez</li>
+                <li>Edad - 19 años</li>
+                <li>Fecha de nacimiento - 21/12/2002</li>
+                <li>Altura - 1.86</li>
+                <li>Villaverde Bajo, Madrid</li>
+            </ul>
+        </aside>
+        <!-- Contenido de la información central de las características, las dos actividades y la aplicacción web más usada -->
+        <main>
+            <h2>Tres características sobre mí</h2>
+            <hr>
+            <section class="caracteristicas">
+                <article>
+                    <h3>Gracioso</h3>
+                        <p>Me considero una persona graciosa, ya que, siempre intento estar con una sonrisa y poder hacer feliz a la gente que me rodea. 
+                            Es la personalidad que tengo, pero claro, siempre desde el respeto a las otras personas.</p>
+                </article>
+                <article>
+                    <h3>Trabajador</h3>
+                        <p>Me gusta mucho trabajar solo o en equipo, ya que soy muy bueno organizandome y organizando al resto de mi equipo. 
+                            Me concentro con mucha facilidad, si me centro en un trabajo no paro hasta acabarlo.</p>
+                </article>
+                <article>
+                    <h3>Amable</h3>
+                        <p>Soy muy abierto a conocer gente nueva, soy muy sociable, y siempre trato de estar bien con toda la gente que tengo alrededor. 
+                            También, soy muy hablador, cuando cojo confianza con una persona y no hay manera de callarme pero bueno lo asumo.</p>
+                </article>
+            </section>
+            <h2>Dos actividades que no dejaría de hacer</h2>
+            <hr>
+            <section class="actividades">
+                <article>
+                    <h3>Escuchar música</h3>
+                    <a href="https://open.spotify.com/" target="_blank"><img class="spotify" src="img/spotify.png" alt="Spotify" title="Spotify"></a>
+                </article>
+                <article>
+                    <h3>Salir de fiesta</h3>
+                    <img class="fiesta" src="img/fiesta.jpg" alt="Fiesta" title="Fiesta">
+                </article>
+            </section>
+            <h2>Aplicación web que utilizo con más frecuencia</h2>
+            <hr>
+            <section class="appweb">
+                <article class="instagram">
+                    <a href="https://www.instagram.com/" target="_blank"><img class="instagram" src="img/instagram.jpeg" alt="Instagram" title="Instagram"></a>
+                    <p>La aplicación web que mas utilizo es <a href="https://www.instagram.com/" target="_blank">Instagram</a></p>
+                </article>
+            </section>
+        </main>
+        <!-- Contenido del pie de página -->
+        <footer>
+            Página desarrollada por <a href="https://github.com/DavidGarrido16" target="_blank" title="Github">David Garrido Martínez</a>
+        </footer>
+    </div>
 </body>
-
 </html>
