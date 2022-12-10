@@ -69,7 +69,7 @@ main{
     margin-left: 25px; /* Margen de la izquierda */
     padding: 0px 20px; /* Espacio entre el contenido y su borde 1º arriba y abajo 2º los lados */
     width: 77%; /* Anchura */
-    height: 1300px; /* Altura */
+    height: 1800px; /* Altura */
     border: 2px black solid; /* Características del borde */
 }
 .layout{
@@ -82,6 +82,10 @@ p{
 }
 hr{
     border: 0.2px rgb(0, 0, 0) solid; /* Características del borde */
+}
+iframe{
+    margin-left: 200px;
+    margin-top: 125px;
 }
 footer{
     background-color: rgb(0, 0, 0); /* Color de fondo del pie de página */
